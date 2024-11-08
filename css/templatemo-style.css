@@ -177,7 +177,7 @@ header {
 /* Sidebar Style */
 
 .sidebar-navigation {
-  width: 22.5%;
+  width: 17.5%;
   float: left;
   height: 100%;
   position: fixed;
@@ -200,12 +200,15 @@ header {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.5px;
   height: 100px;
   width: 100%;
   display: inline-block;
   border: 1px solid rgba(250,250,250,0.5);
+  /* AGREGADO */
+  padding-top: 15px;
+  line-height: 1.5;
 }
 
 .sidebar-navigation .logo em {
@@ -225,7 +228,7 @@ header {
 }
 
 .sidebar-navigation ul {
-  margin-left: 45px;
+  margin-left: 25px;
   list-style: none;
   padding: 0;
 }
@@ -270,13 +273,13 @@ header {
   color: #fff;
 }
 .sidebar-navigation nav a:hover, nav .active-section {
-  color: #fff;
+  color: #ce1313;
 }
 .sidebar-navigation nav a:hover span, nav .active-section span{
-  background-color: #ddd;
+  background-color: #ce1313;
 }
 .sidebar-navigation nav .active-section .rect{
-  width: 30px;
+  width: 10px;
 }
 .sidebar-navigation nav .active-section .circle{
   background-color: #fff;
@@ -351,11 +354,15 @@ header {
   font-size: 48px;
   color: #fff;
   font-weight: 700;
+  /* AGREGADO */
+  text-shadow: 2px 2px 5px #888;
 }
 
 .Modern-Slider .info p {
   font-size: 15px;
   color: #fff;
+  /* AGREGADO */
+  text-shadow: 2px 2px 5px #cfc7c7;
 }
 
 .Modern-Slider .info .white-button {

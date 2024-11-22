@@ -997,6 +997,9 @@
 .fa-location-arrow:before {
   content: "\f124";
 }
+.fa-location-dot:before {
+  content: "\f3c5";
+}
 .fa-crop:before {
   content: "\f125";
 }
